@@ -8,15 +8,16 @@
     <title>Mustang Framework</title>
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Rye&family=Telex&display=swap" rel="stylesheet">
     <!-- Styles -->
     <style>
         html, body {
             background-color: #fff;
             color: #636b6f;
-            font-family: 'Raleway', sans-serif;
-            font-weight: 100;
+            font-family: 'Big Shoulders Display', cursive;
+            font-weight: 300;
             height: 100vh;
             margin: 0;
         }
@@ -46,22 +47,22 @@
         }
 
         .title {
-            font-size: 150px;
+            font-size: 120px;
             color: #00bdf4;
+            font-family: 'Rye', cursive;
         }
 
         .links > a {
             color: #636b6f;
             padding: 0 25px;
-            font-size: 12px;
+            font-size: 24px;
             font-weight: 600;
             letter-spacing: .1rem;
             text-decoration: none;
-            text-transform: uppercase;
         }
 
         .m-b-md {
-            margin-bottom: 30px;
+            margin-bottom: 60px;
         }
 
         .button {
@@ -72,7 +73,7 @@
             color: #00bdf4;
             background-color: white;
             line-height: 30px;
-            font-size: 14px;
+            font-size: 16px;
             text-decoration: none;
             font-weight: bold;
         }
@@ -104,14 +105,10 @@
         <div class="title m-b-md">Mustang Framework</div>
 
         <div class="links m-b-md">
-            <a href="https://github.com/mustang-framework/mustang/wiki">Documentation</a>
-            <a href="https://github.com/mustang-framework/mustang">GitHub</a>
-        </div>
-
-        <hr class="rounded m-b-md">
-
-        <div class="links">
+            <a href="https://github.com/mustang-framework/mustang/wiki">Mustang Documentation</a>
+            .
             <a href="{{ route('public_docs') }}">Api Public Documentation</a>
+            .
             <a href="{{ route('private_docs') }}">Api Private Documentation</a>
         </div>
     </div>
